@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
@@ -34,3 +35,19 @@ You can check out [the Next.js GitHub repository](https://github.com/vercel/next
 The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+=======
+# DA2
+Source Folder:
+Open terminal in Source and run command: npm install
+Then run command: npm run dev
+Next go to link:
+http://localhost:3000 (client)
+http://localhost:3000/admin (admin)
+
+Django Folder:
+Open terminal in Django and run command: python manage.py runserver
+
+Required Django modules:
+pip install python-dotenv
+pip install django-cors-headers
+>>>>>>> 7e08487df8b6cdbf74d4876eed5b8f55766b394d
