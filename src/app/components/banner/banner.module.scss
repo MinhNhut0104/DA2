@@ -1,0 +1,8 @@
+@import "../../style.module.scss";
+
+.banner {
+  &Container {
+    @include mainLayout;
+    margin-top: $marginTopLayOut;
+  }
+}

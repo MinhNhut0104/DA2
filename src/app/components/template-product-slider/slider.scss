@@ -1,0 +1,41 @@
+.slick-list {
+  margin: 0 -12px;
+}
+
+.slick-slider:hover {
+  .slick-arrow {
+    background-color: #131118;
+    border-radius: 50%;
+  }
+}
+
+.slick-arrow {
+  position: absolute !important;
+  width: 36px !important;
+  height: 36px !important;
+  z-index: 10;
+  background-color: #131118;
+  border-radius: 50%;
+  &:hover {
+  }
+  &::before {
+    display: none;
+  }
+  Image {
+    width: 100%;
+    height: 100%;
+  }
+}
+.slick-next {
+  right: 14px;
+}
+
+.slick-prev {
+  left: 14px;
+}
+
+@media screen and (max-width: 992px) {
+  .slick-arrow {
+    display: none !important;
+  }
+}
